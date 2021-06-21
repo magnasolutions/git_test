@@ -1,0 +1,1 @@
+This is Magna's first git project!
