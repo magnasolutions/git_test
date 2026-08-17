@@ -1,14 +1,14 @@
 # Rent-to-Own Villa / Townhouse, Abu Dhabi — The Developer's Case
 
 **Team A — Deal Economics**
-**Date:** 17 August 2026
+**Date:** 17 August 2026 · **Second issue,** superseding the first. Corrections listed in §2.7.
 **Audience:** Commercial Director / Head of Finance, Abu Dhabi residential developer or master-community owner
 
 ---
 
 ## 0. How to read the numbers in this document
 
-This paper argues a commercial case. It does not assert facts we cannot support. Three labels are used throughout and they are used strictly:
+This paper argues a commercial case, and then — following an adversarial review of its own arithmetic — reports that the case does not close on the terms originally proposed. Three labels are used throughout and they are used strictly:
 
 | Label | Meaning |
 |---|---|
@@ -16,19 +16,32 @@ This paper argues a commercial case. It does not assert facts we cannot support.
 | **[ASSUMPTION]** | Our input. Not sourced from anywhere. Replace with your own number. |
 | **[ILLUSTRATIVE]** | A worked model built on the above. The arithmetic is real and reproducible; the inputs are not your inputs until you substitute them. |
 
-**Nothing in this document is a legal opinion.** Whether a lease-plus-purchase-option can be registered on Tawtheeq, whether accrued equity credit can be forfeited on default without falling foul of penalty-clause rules, and whether an employer can be named as payer or guarantor on an ADREC-registered tenancy are all questions for a UAE real-estate lawyer. We flag them; we do not answer them.
+**Nothing in this document is a legal opinion.** Whether a lease-plus-purchase-option with an accruing equity credit can be registered on Tawtheeq, whether forfeiture of accrued credit is enforceable, whether an employer can be named as payer or guarantor on an ADREC-registered tenancy, and — the largest omission in the first issue — **whether an expatriate occupier can take freehold title at all in each target community** are questions for a UAE real-estate lawyer. We flag them; we do not answer them.
 
-**We have no demand data.** There is no survey, no absorption rate, no enquiry volume and no pipeline in this analysis, because none was obtainable. The case below is a supply-side and capital-structure argument. If your leasing and sales teams are clearing this stock at list, the case does not apply to you. See §7.
+**We have no demand data.** There is no survey, no absorption rate, no enquiry volume and no pipeline in this analysis, because none was obtainable.
 
----
-
-## 1. The core proposition, in one paragraph
-
-We are asking you to take a defined slice of your slow-moving, completed or near-complete outer-ring townhouse and villa stock and offer it on a five-year **registered tenancy carrying a purchase option**, at an all-in annual rent of AED 150,000 or below, with a stated percentage of each year's rent accruing as a credit against a stated strike price, and a non-refundable option fee paid up front. The occupier is a tenant on a Tawtheeq contract from day one — not a buyer on an SPA — which is what allows a corporate employer housing allowance to fund the rent annually in advance, and which is what distinguishes this from every payment plan currently in the market. You are not being asked to discount. You are being asked to convert an unlet or unsold unit into a contracted five-year income stream from a near-prime payer, with a pre-agreed exit at the end of it, in exchange for giving up some of the upside on that one unit. On our illustrative model this is roughly NPV-neutral against successfully letting the unit for five years and then selling it, and materially better than holding it empty. It is not a yield-maximising trade. It is a risk-and-velocity trade, and it only makes sense on inventory that is genuinely not moving.
+**Precision note.** All present values are rounded to the nearest AED 10,000 and all differences to the nearest AED 5,000. The first issue of this paper quoted to the dirham on an illustrative asset value and a placeholder discount rate, and at one point offered a AED 4,358 difference as evidence of indifference. Every digit past the leading two was noise. It has been removed.
 
 ---
 
-## 2. Yield comparison model
+## 1. The proposition, and the finding
+
+**The proposition.** Take a defined slice of slow-moving completed or near-complete outer-ring townhouse and villa stock and offer it on a multi-year **registered tenancy carrying a purchase option**, at an all-in annual rent of AED 150,000 or below, with a stated percentage of each year's rent accruing as a credit against a stated strike price, and a non-refundable option fee paid up front. The occupier is a tenant on a Tawtheeq contract from day one — not a buyer on an SPA — which is what would allow a corporate employer housing allowance to fund the rent, and which is what would distinguish this from every payment plan currently in the market.
+
+**The finding, stated by us before you find it.** On our own arithmetic, **the credit rate a developer can afford and the credit rate a tenant needs do not overlap** — not at three years, not at five, not at ten, and not at any hurdle rate from 6% to 10%. Two conclusions we published in the first issue of this paper turn out to close the space between them:
+
+- A high credit rate destroys value for the developer. At 100% of rent credited against a fixed strike, the structure sits roughly AED 350,000 of present value below simply letting the unit.
+- A low credit rate strands the tenant. Below roughly 44% of rent credited over five years, the accrued equity never reaches a financeable deposit and the option lapses unexercised.
+
+Set those two constraints against each other and the feasible region is empty. **The best case in the entire parameter space is a five-year term at an 8% hurdle with the occupier paying the service charge on top of rent, where the developer can afford 38.5% and the tenant needs 44.0% — a shortfall worth about 1.3% of asset value in present-value terms.** Under the all-in AED 150,000 cap that the tenant side is actually asking for, that shortfall widens to about 3.6%, and once the transaction costs at exercise are counted (§3.3 — a gate nobody had spotted) **no term from three to ten years clears at any hurdle rate tested.**
+
+§3 sets this out in full. §§4–7 are the underlying analysis, corrected. §8 is the counter-case. §9 is what should happen next, which is materially less than the first issue asked for.
+
+**What survives is narrower and more honest than a pitch:** a multi-year registered tenancy at market rent, on genuinely stalled outer-ring stock with an unusually high gross rental yield, with a **collared** purchase option and a credit rate the developer sets — put to a developer only after a legal opinion, a lender letter and an employer letter exist, and only to a developer whose hurdle rate is nearer 6% than 10%. None of those three letters exists today.
+
+---
+
+## 2. The model
 
 ### 2.1 The unit and the assumption register
 
@@ -36,304 +49,404 @@ Everything below runs off one hypothetical unit. Substitute your own inputs and 
 
 | # | Input | Value | Basis |
 |---|---|---|---|
-| 1 | Asset value (outer-ring townhouse, ready) | AED 2,200,000 | **[ILLUSTRATIVE]** — chosen to sit inside the AED 2.1–2.5M band implied by the research (§3.1) |
-| 2 | Rent-to-own annual rent, flat, paid in advance | AED 150,000 | Brief's ceiling. = 6.8% gross on input 1 |
+| 1 | Asset value (outer-ring townhouse, ready) | AED 2,200,000 | **[ILLUSTRATIVE]** — sits inside the AED 2.1–2.5M band implied in §4.1 |
+| 2 | Annual rent, flat, paid in advance | AED 150,000 | Brief's ceiling. = 6.8% gross on input 1 |
 | 3 | Market gross rent if plain-let | AED 150,000 | **[ASSUMPTION]** — held equal to input 2 for comparability. See note below. |
-| 4 | Term | 5 years | Mirrors the only Abu Dhabi villa RTO precedent (Aldar West Yas, 5 years) **[UNVERIFIED — search snippet only]** |
-| 5 | Developer WACC / hurdle rate | 8.0% nominal | **[ASSUMPTION]** — pure placeholder. Sensitivity at 6% and 10% in §2.4. This is the single most important input in the model. |
-| 6 | Owner's carry cost while owning (service charge, insurance, minor capex, community levy) | 1.0% of value = AED 22,000/yr | **[ASSUMPTION]** — no service-charge data for any Abu Dhabi RTO scheme was obtainable |
-| 7 | Letting agency fee | 5% of rent = AED 7,500/yr | **[UNVERIFIED — search snippet only]** — research records "agency ~5% of rent (typical, unverified)" |
-| 8 | Void / re-letting allowance under plain letting | 5% of rent = AED 7,500/yr | **[ASSUMPTION]** — roughly one void month every 20 months |
-| 9 | Selling costs on any disposal by the developer | 3.0% of price | Research: broker ~2%; ADM/DARI transfer fee 2% reported split 1% buyer / 1% seller, so 1% to seller **[UNVERIFIED — search snippet only]** |
-| 10 | Capital growth over the 5 years | 0% nominal | **[ASSUMPTION]** — deliberately neutral. Growth assumptions are where these models get abused; if you believe in growth, that argues *against* a fixed strike (§2.5). |
-| 11 | Discount to clear the unit in a straight sale today | 10% off list | **[ASSUMPTION]** — replace with your actual list-to-transacted spread on this community |
-| 12 | Option fee (non-refundable, credited to price on exercise) | 5% of value = AED 110,000 | **[ASSUMPTION]** — no Abu Dhabi RTO scheme disclosed a booking, option or deposit figure. This is a design proposal, not a benchmark. |
-| 13 | Community / management charge paid by the RTO occupier | AED 12,000/yr | **[ASSUMPTION]**, informed by Aldar charging AED 15,000/yr management at West Yas on top of rent **[UNVERIFIED — search snippet only]** |
-| 14 | Rent escalation during the term | 0% | Research reports ADREC imposed a temporary freeze on all rent increases effective 2 June 2026, halting the standard 5% annual increase **[UNVERIFIED — single brokerage-blog source, not confirmed on adrec.gov.ae]**. We assume 0% for *both* plain letting and RTO, so the comparison is not rigged. See §2.6. |
+| 4 | Term | 5 years (3, 7 and 10 also tested in §3) | The only Abu Dhabi villa RTO precedent ran 5 years **[UNVERIFIED — search snippet only]** |
+| 5 | Developer WACC / hurdle rate | 8.0% nominal | **[ASSUMPTION]** — pure placeholder. Sensitivity at 6% and 10% in §2.4. The single most important input in the model. |
+| 6 | Owner's carry while owning (service charge, insurance, minor capex, community levy) | 1.0% of value = AED 22,000/yr | **[ASSUMPTION]** — no service-charge data for any Abu Dhabi RTO scheme was obtainable |
+| 7 | Letting agency fee | 5% of rent = AED 7,500/yr | **[ASSUMPTION]**. *Correction:* the first issue attributed this to the research as "agency ~5% of rent (typical, unverified)". That string appears in our own project report (`abu-dhabi-rent-to-own-report.md`, Part 2 table, row A7) — **not** in the underlying research, which contains no agency-fee data at all. The figure is ours. |
+| 8 | Void / re-letting allowance under plain letting | 5% of rent = AED 7,500/yr | **[ASSUMPTION]** — roughly one void month every 20 months. Together with input 11 this is one of the two numbers that decides the whole answer, and both are invented. See §8.7. |
+| 9 | Selling costs on any disposal by the developer | 3.0% of price | Broker ~2%; transfer fee 2% reported split 1% buyer / 1% seller, so 1% to seller **[UNVERIFIED — search snippet only]** |
+| 10 | Capital growth over the term | 0% nominal | **[ASSUMPTION]** — deliberately neutral. Note the consequence in §2.5: at 0% growth you cannot also index the strike upward and expect the option to be exercised. |
+| 11 | Discount to clear the unit in a straight sale today | 10% off list | **[ASSUMPTION]** — replace with your actual list-to-transacted spread |
+| 12 | Option fee, non-refundable, credited to price on exercise | 5% of value = AED 110,000 | **[ASSUMPTION]** — no Abu Dhabi RTO scheme disclosed a booking, option or deposit figure. A design proposal, not a benchmark. |
+| 13 | **Service charge treatment** | **Inside the AED 150,000 cap** — developer nets AED 128,000 | See §2.1.1. This was inconsistent in the first issue and it changes the answer. |
+| 14 | Rent escalation during the term | 0% for both RTO and plain letting | See §2.6 |
+| 15 | Expatriate deposit requirement at exercise | 20% of price | **[UNVERIFIED — search snippet only]** — research states "expat minimum typically 20%+". Gating "78.0% vs 81.4%" against a threshold stated only as "20%+" is false precision; treat 20% as a soft floor. |
+| 16 | Buyer-side transaction costs at exercise | 1.5–4% of price = AED 33,000–88,000 **cash** | **[UNVERIFIED — search snippet only]**, assembled from the research's transfer fee, trustee fee, valuation and mortgage-registration lines. See §3.3. |
 
-**Note on input 3.** We have held plain-let rent equal to RTO rent so that the two columns are comparable. In reality, on a genuine AED 2.2M outer-ring townhouse you may achieve less. The research records Al Reef rents at AED 90,000–160,000/yr, average ≈ AED 138,000 **[UNVERIFIED — search snippet only]**, against Al Reef sale prices from AED 1.1M. If your plain-let achievable rent is below AED 150,000 on the same asset, every plain-letting figure below is optimistic and the RTO case improves accordingly. Do not let us have that for free — check it.
+**Note on input 3.** We have held plain-let rent equal to RTO rent so the two columns are comparable. On a genuine AED 2.2M outer-ring townhouse you may achieve less: Al Reef rents run AED 90,000–160,000/yr, average ≈ AED 138,000 **[UNVERIFIED — search snippet only]**. If your achievable rent is below AED 150,000, every plain-letting figure below is optimistic and the RTO case improves. Do not give us that for free — check it.
 
-**Discounting convention.** Rent is received annually in advance, so the five rent payments fall at t = 0, 1, 2, 3, 4. The annuity-due factor at 8% is 4.31213. The year-5 discount factor at 8% is 0.68058. All figures are AED, present value at t = 0.
+#### 2.1.1 The service charge decides the answer, so it is settled here
 
-### 2.2 The four base options
+The first issue of this paper had the occupier paying a AED 12,000/yr community charge **on top of** the AED 150,000 rent, so the developer netted AED 140,000. The tenant-side term sheet asks for an **all-in cap**: rent plus management fee plus service charge together ≤ AED 150,000, under which the developer nets AED 128,000. The difference is worth about AED 50,000 of present value per unit over five years — enough to move the conclusion.
 
-**Option A — Hold the unit unsold and unlet for five years, then sell.**
+**We resolve it against ourselves. The base case throughout this paper is the all-in cap at input 13, because that is the version actually being asked for.** Every table also reports the charge-on-top variant so you can see the sensitivity, and it is worth about **+AED 50,000** of PV in every five-year cell. If your negotiating position is that the occupier pays the service charge separately, say so early — it is the single cheapest concession that improves the deal for you, and on our numbers it is worth more than any other term except the strike.
 
-| Line | Calculation | PV (AED) |
-|---|---|---|
-| Carry cost | −22,000 × 4.31213 | (94,867) |
-| Sale at yr 5, net of 3% costs | 2,200,000 × 0.97 = 2,134,000; × 0.68058 | 1,452,358 |
-| **Total** | | **1,357,491** |
+Note the like-for-like consequence: under the all-in cap the RTO's only running-cost advantage over plain letting is the avoided agency fee and void allowance — AED 15,000/yr on our assumptions, both of which are our inventions (inputs 7 and 8).
 
-This column embeds a generous assumption: that a unit which failed to sell or let for five years nonetheless achieves full list price in year 5. If it doesn't, A is worse than shown.
+**Discounting convention.** Rent is received annually in advance, so five payments fall at t = 0…4. Annuity-due factor at 8% = 4.31213; year-5 discount factor at 8% = 0.68058.
 
-**Option B — Discount 10% and sell today.**
+### 2.2 The options, at an 8% hurdle, all-in cap
 
-| Line | Calculation | PV (AED) |
-|---|---|---|
-| Gross proceeds | 2,200,000 × 0.90 | 1,980,000 |
-| Less selling costs at 3% | | (59,400) |
-| **Total (cash at t = 0)** | | **1,920,600** |
+All figures AED, present value at t = 0, rounded to the nearest 10,000.
 
-**Option C — Plain let at market for five years, then sell.**
-
-| Line | Calculation | PV (AED) |
-|---|---|---|
-| Gross rent | 150,000/yr | |
-| Less agency 5% | (7,500) | |
-| Less void allowance 5% | (7,500) | |
-| Less owner carry | (22,000) | |
-| Net rent | 113,000/yr × 4.31213 | 487,271 |
-| Sale at yr 5, net of 3% | 2,134,000 × 0.68058 | 1,452,358 |
-| **Total** | | **1,939,629** |
-
-**Option D — Rent-to-own.** Four variants, because the structure's parameters change the answer more than the structure itself does.
-
-Common to all D variants: rent AED 150,000/yr in advance for 5 years; occupier pays the AED 12,000/yr community charge, so the developer's net carry is AED 22,000 − 12,000 = AED 10,000/yr, giving net rent of AED 140,000/yr (PV = 140,000 × 4.31213 = 603,698). No void, no agency fee — the unit is contracted for the full term.
-
-| Variant | Structure | Equity accrued by yr 5 | Residual due at yr 5 | PV of residual | **Total PV** |
+| Option | Structure | Equity accrued by yr 5 | Residual at yr 5 | **PV** | vs. plain letting |
 |---|---|---|---|---|---|
-| **D1** | 100% of rent credited, strike fixed at 2,200,000, **no** option fee, developer carries the service charge | 750,000 | 1,450,000 | 986,841 | **1,538,794** |
-| **D2** | 40% of rent credited, 110,000 option fee, strike fixed at 2,200,000 | 300,000 + 110,000 = 410,000 | 1,790,000 | 1,218,238 | **1,931,942** |
-| **D2b** | 50% of rent credited, 110,000 option fee, strike fixed at 2,200,000 | 375,000 + 110,000 = 485,000 | 1,715,000 | 1,167,195 | **1,880,898** |
-| **D3** | 40% credited, 110,000 option fee, **strike indexed at 3%/yr** to 2,550,403 | 410,000 | 2,140,403 | 1,456,722 | **2,170,420** |
-| **D4** | D2 terms but the occupier **does not exercise**; developer keeps rent and option fee, sells at yr 5 | n/a — forfeited | n/a | 2,134,000 × 0.68058 = 1,452,358 | **2,166,062** |
+| **A** | Hold unsold and unlet 5 years, then sell at full price | — | — | **1,360,000** | −580,000 |
+| **B** | Discount 10% and sell today, net of 3% costs | — | — | **1,920,000** | −20,000 |
+| **C** | Plain let 5 years (less agency, void, carry), then sell | — | — | **1,940,000** | — |
+| **D₀** | RTO, **0% credit** — pure lease plus a paid option | 110,000 (fee only) | 2,090,000 | **2,080,000** | +140,000 |
+| **D₄₀** | RTO, 40% of rent credited, fixed strike 2,200,000 | 410,000 | 1,790,000 | **1,880,000** | −60,000 |
+| **D₅₀** | RTO, 50% of rent credited, fixed strike 2,200,000 | 485,000 | 1,715,000 | **1,830,000** | −110,000 |
+| **D₁₀₀** | RTO, 100% of rent credited, fixed strike 2,200,000 | 860,000 | 1,340,000 | **1,570,000** | −370,000 |
+| **D_lapse** | D₄₀ written, option **not** exercised; developer keeps rent and fee, sells at yr 5 | forfeited | — | **2,110,000** | +170,000 |
 
-D1, D2, D2b and D3 all include the AED 110,000 option fee at t = 0 except D1, which by construction has none.
+Under the charge-on-top variant, add roughly **+50,000** to every D row.
 
-### 2.3 Ranking, at 8% WACC
+Option A embeds a generous assumption — that a unit which failed to sell or let for five years nonetheless achieves full list price in year 5. If it doesn't, A is worse than shown.
 
-| Rank | Option | PV (AED) | vs. plain letting (C) |
-|---|---|---|---|
-| 1 | D3 — RTO, 40% credit, indexed strike | 2,170,420 | +230,791 |
-| 2 | D4 — RTO written, option lapses | 2,166,062 | +226,433 |
-| 3 | C — plain letting then sale | 1,939,629 | — |
-| 4 | D2 — RTO, 40% credit, fixed strike | 1,931,942 | (7,687) |
-| 5 | B — 10% discount sale today | 1,920,600 | (19,029) |
-| 6 | D2b — RTO, 50% credit, fixed strike | 1,880,898 | (58,731) |
-| 7 | D1 — RTO, 100% credit, fixed strike | 1,538,794 | (400,835) |
-| 8 | A — hold empty five years | 1,357,491 | (582,138) |
+### 2.3 What the table says
 
-**Four conclusions a finance team can act on.**
+1. **A high credit rate destroys value.** D₁₀₀ sits about **370,000** below plain letting and about **350,000** below a 10% clearing sale. At 100% credit the rent *is* the discount, so the rent must be well above market for the arithmetic to survive — which is presumably why the one Abu Dhabi villa RTO on record was priced at AED 220,000/yr plus AED 15,000/yr management **[UNVERIFIED — search snippet only]**, roughly 57% above this budget all-in. **The AED 150,000 ceiling cannot be met with a 100%-credit structure.**
 
-1. **The West Yas shape — 100% of rent credited against a fixed strike — destroys value and should not be replicated.** D1 sits AED 400,835 below plain letting and AED 381,806 below a 10% clearing discount. On our illustrative inputs it is the worst live option on the board. This is almost certainly why Aldar priced its only villa RTO at AED 220,000/yr **plus** AED 15,000/yr management **[UNVERIFIED — search snippet only]** rather than at a rent that looked like market: at 100% credit, the rent *is* the discount, so the rent has to be well above market for the arithmetic to survive. That in turn is exactly why the AED 150,000/yr ceiling in this brief cannot be met with a 100%-credit structure.
+2. **A moderate credit rate is roughly a coin-flip against letting.** D₄₀ is about 60,000 below C under the all-in cap and about 10,000 below C with the charge on top — inside the error bar of every assumption in the register. The honest statement is that this structure neither makes nor loses meaningful money against a successful letting.
 
-2. **At a moderate credit rate and a fixed strike, RTO is a coin-flip against plain letting.** D2 is 0.4% below C. That is inside the error bar of every assumption in the register. The honest statement is: *on NPV, this structure neither makes nor loses you money against a successful letting.* Anyone who tells you it beats letting by a wide margin is fitting the assumptions to the conclusion.
+3. **Where the case actually lives is against holding empty.** D₄₀ is about **520,000** ahead of A. The product is not for stock that lets easily.
 
-3. **RTO beats holding empty by a very wide margin** — D2 is AED 574,451 ahead of A. This is where the entire commercial case actually lives, and it is why §3 matters more than §2. The product is not for stock that lets easily. It is for stock that doesn't.
+4. **The zero-credit variant is the only one that clearly beats every alternative** — D₀ at +140,000. That is not a rent-to-own product; it is a lease with a paid option attached, and it accrues the tenant nothing. It is included because it marks the ceiling of what a developer would happily sign, and §3 measures the distance from there to what a tenant can use.
 
-4. **Indexing the strike is worth more than any other single term.** Moving from a fixed strike to a 3%/yr indexed strike (D2 → D3) adds AED 238,478 of PV — more than three times the entire cost of raising the credit rate from 40% to 50%. If you concede only one thing in negotiation, do not concede this one.
+**Withdrawn from the first issue: the recommendation to index the strike.** The first issue concluded that indexing the strike at 3%/yr was worth more than any other single term and should never be conceded. That conclusion fails this paper's own tenant test and is withdrawn. At a strike indexed to AED 2,550,000 with AED 410,000 of equity, the residual LTV is **83.9%** — it fails the 80% gate. And under input 10 (0% growth) that strike sits about 16% above market value, so the option is deep out of the money and would not be exercised at all. The apparent PV uplift from indexing was not the value of an exercised deal; it was the lapse value with a rounding error attached. **You cannot simultaneously assume flat prices, index the strike upward, and design for completion.** See §2.5 for what replaces it.
 
 ### 2.4 Sensitivity to your hurdle rate
 
-Input 5 dominates everything. Same structures, three discount rates:
+Input 5 dominates. All-in cap, 5-year term, rounded to 10,000:
 
 | Option | @ 6% | @ 8% | @ 10% |
 |---|---|---|---|
-| A — hold empty | 1,496,417 | 1,357,498 | 1,233,309 |
-| B — 10% discount sale today | 1,920,600 | 1,920,600 | 1,920,600 |
-| C — plain letting | 2,099,206 | 1,939,635 | 1,796,241 |
-| D1 — RTO 100% credit, fixed strike | 1,655,058 | 1,538,798 | 1,434,079 |
-| D2 — RTO 40% credit, fixed strike | 2,072,707 | 1,931,942 | 1,805,230 |
-| D2b — RTO 50% credit, fixed strike | 2,016,663 | 1,880,898 | 1,758,661 |
-| D3 — RTO 40% credit, indexed strike | 2,334,548 | 2,170,420 | 2,022,803 |
-| D4 — RTO written, option lapses | 2,329,764 | 2,166,062 | 2,018,827 |
+| A — hold empty | 1,500,000 | 1,360,000 | 1,230,000 |
+| B — 10% discount sale today | 1,920,000 | 1,920,000 | 1,920,000 |
+| C — plain letting | 2,100,000 | 1,940,000 | 1,800,000 |
+| D₀ — 0% credit, lease + paid option | 2,240,000 | 2,080,000 | 1,940,000 |
+| D₄₀ — 40% credit | 2,020,000 | 1,880,000 | 1,760,000 |
+| D₅₀ — 50% credit | 1,960,000 | 1,830,000 | 1,710,000 |
+| D₁₀₀ — 100% credit | 1,680,000 | 1,570,000 | 1,480,000 |
+| D_lapse | 2,280,000 | 2,110,000 | 1,970,000 |
 
-**Read this table before anything else in the paper.** At a 10% hurdle rate — plausible for a developer with a land bank and an active pipeline competing for capital — **the 10% discount sale beats every other option including every RTO variant except the indexed-strike and lapse cases.** Cash today wins when capital is expensive. If your internal hurdle is 10% or above and you can genuinely clear the unit at a 10% discount, the correct answer is to take the discount and redeploy, and this pitch does not apply to you. Say so and we will stop.
+**Read this table before anything else.** At a 10% hurdle — plausible for a developer with a land bank competing for capital — **the 10% clearing sale (1,920,000) beats every credit-bearing RTO variant.** Cash today wins when capital is expensive. If your internal hurdle is 10% or above and you can genuinely clear the unit at a 10% discount, the correct answer is to take the discount and redeploy, and this paper does not apply to you. Say so and we will stop.
 
-Conversely, at 6% — closer to a stabilised income-portfolio cost of capital, or a master-community owner holding for the long term — RTO at a fixed strike and 40% credit (2,072,707) beats a discount sale by AED 152,107 and sits within AED 26,499 of plain letting, while removing the void, the re-letting cycle and the year-5 exit risk.
+*(The first issue printed two slightly different values for the same cells across §2.2 and §2.4, from rounded versus full-precision discount factors. Rounding to 10,000 removes the discrepancy.)*
 
-### 2.5 The option you are writing, and what it costs you
+### 2.5 The option you are writing — and why a collar, not an index
 
-In D2 and D2b you have sold the occupier a five-year call on the unit at a fixed strike, and you have sold it for the option fee alone. Note the asymmetry in the ranking table: **D4 (option lapses, 2,166,062) is worth AED 234,120 more to you than D2 (option exercised, 1,931,942).** That is not a quirk. It is the mechanical consequence of granting an equity credit against a strike that does not move: the credit is a deferred discount, and exercise is the branch in which you actually pay it.
+Note the asymmetry in §2.2: **D_lapse (2,110,000) is worth about 230,000 more to you than D₄₀ (1,880,000).** That is mechanical, not a quirk. Granting an equity credit against a strike that does not move makes the credit a deferred discount, and exercise is the branch in which you actually pay it. Under a fixed strike with credit, **non-exercise is your better financial outcome and the customer's worse one** — which is a bad product to write, because its best financial branch is the one that generates the complaint.
 
-Two implications:
-
-- **Do not model exercise as the "success" case.** Under a fixed strike with credit, non-exercise is the better financial outcome for you and the worse outcome for the customer and for the product's reputation. If you write this product, you should want exercise to happen — which means you should price the strike so that exercise is not a loss. That is what D3 does.
-- **The strike is where the whole negotiation is.** If you index the strike at 3%/yr (input 10 notwithstanding — index it whether or not you believe in growth, because indexation is what compensates you for holding the asset), exercise (2,170,420) and lapse (2,166,062) converge to within AED 4,358. You are then indifferent to the customer's decision, which is the only defensible position to write an option from.
+Indexing the strike upward does not fix this; §2.3 shows it prices the option out of existence. What does address it is a **collar**: a strike referenced to market value at exercise, floored at (say) 95% of today's value and capped at 115%. Under input 10's 0% growth the collared strike equals today's value, so **the collar prices identically to the fixed strike in the central case and adds no present value to the table above.** We are not claiming an uplift. Its value is entirely in the tails: it stops you being short a call in a rising market and stops you holding the downside alone in a falling one, and it keeps exercise rational — which is what makes it a product rather than a fee-harvesting exercise. It is the version that survives review.
 
 ### 2.6 The rent-freeze point, stated fairly
 
-The research records that ADREC reportedly imposed an immediate temporary freeze on all rent increases across Abu Dhabi effective 2 June 2026, halting the standard 5% annual increase **[UNVERIFIED — single brokerage-blog source, not confirmed on adrec.gov.ae, which could not be opened]**. Verify this with ADREC before repeating it.
+The research records that ADREC reportedly imposed a temporary freeze on all rent increases across Abu Dhabi effective 2 June 2026, halting the standard 5% annual increase **[UNVERIFIED — single brokerage-blog source, not confirmed on adrec.gov.ae, which could not be opened]**. Citing a brokerage blog to a commercial director as though it were regulation is a self-inflicted wound. **Verify it at ADREC, or drop the argument.** We put it as a question, not a claim.
 
-If it is real and it persists, it is a genuine argument for RTO, and the argument is this: a five-year RTO at a flat rent normally costs the landlord the compounding 5% escalations they would otherwise have taken. Over five years that foregone escalation is worth roughly AED 41,500 of nominal rent on a AED 150,000 base. **If you cannot escalate anyway, offering a flat five-year rent costs you nothing you were going to receive.** The freeze converts a real concession into a free one — for as long as it lasts.
+*If* it is real and persists, the argument would be: a multi-year flat rent normally costs the landlord the compounding escalations they would otherwise take. Over five years, foregone 5% escalation on a AED 150,000 base is **AED 78,845** of nominal rent. *(The first issue said "roughly AED 41,500". That was wrong by about 90% — see §2.7.)* Where escalation is unavailable, a flat multi-year rent concedes less than it appears to.
 
-We have deliberately assumed 0% escalation for plain letting as well (input 14), so this benefit does **not** appear anywhere in the tables above. It is upside to the RTO case that we have not claimed. If you assume the freeze lifts and 5% escalation returns, re-run option C with escalating rent and RTO looks correspondingly worse.
+We have assumed 0% escalation for plain letting as well (input 14), so this benefit does **not** appear anywhere in the tables. It is upside to the RTO case that we have not claimed. Assume the freeze lifts and 5% escalation returns, and option C improves while the RTO does not.
+
+### 2.7 Corrections to the first issue
+
+Recorded openly, because a paper that hides its corrections should not be trusted on its arithmetic.
+
+| # | First issue said | Correct | Effect |
+|---|---|---|---|
+| 1 | Price appreciation forgone at 3%/yr over 5 years = AED 340,403 | **AED 350,403** | Arithmetic slip; §2.2 of the first issue already used 2,550,403, which implies 350,403 |
+| 2 | Foregone 5% escalation over 5 years ≈ AED 41,500 | **AED 78,845** | Off by ~90%. Both figures were checkable in the meeting. |
+| 3 | Agency fee attributed to the research | **[ASSUMPTION]**, ours; string came from our own project report, not the research | Figure unchanged; attribution corrected |
+| 4 | 100%-credit case had the developer carrying the service charge while every other variant did not | Restated like-for-like ≈ **1,590,000**, gap to plain letting ≈ **350,000**, not 400,000 | Conclusion survives; the quoted number did not. Any analyst finds this in ten minutes, and it made the 100% case look loaded. |
+| 5 | "Index the strike — if you concede only one thing, do not concede this one" | **Withdrawn.** Fails our own 80% LTV test and is irrational to exercise at 0% growth. Replaced by a collar (§2.5). | |
+| 6 | "Cheaper stock is more completable" (§3.3 of the first issue) | **Withdrawn and rebuilt** as a gross-yield condition (§4.3). Price level is irrelevant; the pattern was an artifact of assigning different yields. | It was driving the pilot recommendation. |
+| 7 | Service-charge treatment inconsistent between documents | Settled at §2.1.1 on the all-in cap | Worth ~50,000/unit of PV |
+| 8 | PVs quoted to the dirham; a 4,358 difference offered as proof of indifference | Rounded to 10,000 / 5,000 | |
+| 9 | Two different values for the same cells in §2.2 vs §2.4 | Reconciled by rounding | |
+| 10 | The two findings in §2.3 and §5.2 were never set against each other | **§3 — the paper's central finding, and it is negative** | |
+| 11 | Transaction costs at exercise not modelled | **§3.3 — a third gate, and it widens the gap** | |
+| 12 | Freehold eligibility for expatriate occupiers never asked in any target community | **§4.2 — new column, "not established" everywhere but Al Reef** | Largest single omission |
 
 ---
 
-## 3. Which inventory this works on
+## 3. The feasibility gap — the finding
 
-### 3.1 The arithmetic that sets the ceiling
+### 3.1 Two constraints, set against each other
 
-The research derives a calibration from Aldar's own published equity ladder on its 2019 Ansam / Al Hadeel / Meera scheme — 16% / 19% / 22% of property value accrued at years 1 / 2 / 3 **[UNVERIFIED — search snippet only]** — and concludes that equity accrues at roughly **6–7% of property value per rent-year**, implying that AED 150,000/yr supports an underlying asset of only **≈ AED 2.1–2.5M**.
+- **Tenant constraint.** Accrued equity must reach a financeable deposit by exercise. With a AED 110,000 option fee credited to price and a 20% deposit requirement (input 15), the credit rate *c* over *n* years must satisfy `c × 150,000 × n ≥ 440,000 − 110,000`, i.e. **c ≥ 2.2 / n**.
+- **Developer constraint.** The structure's present value must beat the best live alternative — plain letting over the same horizon (C), or a 10% clearing sale today (B), whichever is higher.
 
-**One honest caveat on that calibration, because your finance team will spot it.** Read literally, the 16/19/22 ladder increments by only 3 percentage points per year after year 1, which is not 6–7%/yr; the year-1 figure of 16% looks like it bundles an upfront element. The 6–7%/yr figure is arithmetically equivalent to the *West Yas* shape — 100% of rent credited — where AED 150,000 on AED 2.2M is exactly 6.8% of value per year. Either way the conclusion holds and holds for a simple reason that needs no scheme data at all: **AED 150,000/yr is a market rent, and market rent divided by a market gross yield gives you the asset value.** At the 6–7% gross yields implied by the research's own Abu Dhabi townhouse figures (average rent AED 150,000 against average sale price ≈ AED 2.5M ⇒ ≈6.0% gross **[UNVERIFIED — search snippet only]**), AED 150,000/yr buys occupancy of an asset worth AED 2.1–2.5M. Nothing more.
+Solving each for *c* gives the maximum the developer can afford and the minimum the tenant needs. **The gap column expresses the shortfall in present-value terms, as a percentage of asset value** — that is, what the developer would have to give away beyond their hurdle to make the tenant financeable.
 
-### 3.2 The target list
+### 3.2 The regions do not overlap
 
-| Community | Product | Price point | Rent benchmark | Fit at ≤150k/yr | Comment |
-|---|---|---|---|---|---|
-| **Al Reef (Manazel)** | 2–5 BR townhouses & villas, 1,832–3,750 sqft, 2,376 units, freehold all nationalities | from AED 1.1M | AED 90k–160k/yr, avg ≈ 138k | **Strong** | The reference community for this product. Rent band straddles the ceiling; ready stock; large enough unit count to run a pilot without moving the market. Research found **no** RTO offering from Manazel — meaning no incumbent to compete with. |
-| **Hydra Village, Rawdat Al Reef** | 2 & 3 BR villas/townhouses, ready since 2012 | AED 750k–900k | AED 45k–100k/yr | **Strong, but re-price the rent** | See §3.3 — the *easiest* residual to finance in the whole list, and the place to pilot. |
-| **Khalifa City** | Townhouses | from AED 1.4M | not obtainable | **Good** | Established, ready, central-adjacent. Rent must be set to market, not to the 150k ceiling. |
-| **Al Ghadeer** | Villas / townhouses | not obtainable at unit level | in-budget per research | **Good** | Listed in-budget by the research; needs unit-level price and rent confirmation. |
-| **Al Shamkha** | Villas / townhouses | not obtainable at unit level | AED 85k–240k/yr; low end in budget | **Partial** | Only the lower band works. Fay Alreeman Ph2 stock at *from AED 2.9M* is above the ceiling — exclude that phase. |
-| **Bloom Living, Zayed City — unsold phases** | Villas, townhouses, apartments; Seville, Granada; handover Q4 2026 / Q1 2027 / Q3 2027 | unit prices **not obtainable**; AD townhouse average sale ≈ AED 2.5M | n/a — no rental history | **Best structural fit, worst data** | This is the closest real-world analogue to our AED 2.2M model unit, and it is stock arriving into the market in exactly the window when it would otherwise stand empty. Unit-level prices could not be verified for any of the three phases — that is the first thing to establish. |
-| **Al Ghadeer Gardens (Aldar)** | 2BR (108) / 3BR (164) townhouses + 165 4BR villas, from AED 1.7M | from AED 1.7M | n/a — off-plan | **Right price, wrong date** | The most budget-compatible *price* in the whole villa/townhouse segment. But construction instalments run Oct 2026 → Aug 2029 with **handover Q4 2029**. There is nothing to lease until then. This is a 2029–2030 product, not a now product. Keep it on the roadmap, not in the pilot. |
+| Hurdle | Term | Developer can afford (all-in cap) | Developer can afford (charge on top) | Tenant needs (20% deposit) | PV gap, all-in cap | PV gap, charge on top |
+|---|---|---|---|---|---|---|
+| 6% | 3 yr | 30.6% | 39.6% | **73.3%** | −7.3% | −5.8% |
+| 6% | 5 yr | 25.7% | 35.3% | **44.0%** | −4.7% | −2.2% |
+| 6% | 7 yr | 24.3% | 34.4% | **31.4%** | −2.3% | +1.0% |
+| 6% | 10 yr | 24.2% | 35.3% | **22.0%** | +0.8% | +5.1% |
+| 8% | 3 yr | 32.7% | 42.1% | **73.3%** | −6.6% | −5.1% |
+| **8%** | **5 yr** | **28.4%** | **38.5%** | **44.0%** | **−3.6%** | **−1.3%** ← closest miss |
+| 8% | 7 yr | 21.0% | 32.0% | **31.4%** | −2.9% | +0.2% |
+| 8% | 10 yr | 12.2% | 24.8% | **22.0%** | −3.1% | +0.9% |
+| 10% | 3 yr | 32.5% | 42.2% | **73.3%** | −6.3% | −4.8% |
+| 10% | 5 yr | 4.5% | 15.2% | **44.0%** | −8.4% | −6.1% |
+| 10% | 7 yr | 0.0% | 2.2% | **31.4%** | −7.7% | −7.2% |
+| 10% | 10 yr | 0.0% | 0.0% | **22.0%** | −5.8% | −5.8% |
 
-All price and rent figures in this table are **[UNVERIFIED — search snippet only]**.
+All figures **[ILLUSTRATIVE]**, on the register at §2.1.
 
-### 3.3 The trap in this table: the ceiling is not the rent
+**At a 10% hurdle nothing works at any term**, because the 10% clearing sale dominates everything. At 6–8% the near-misses cluster at five years and beyond, and the *only* cells that clear on this gate are seven- and ten-year terms with the occupier paying the service charge on top — terms that require a fixed strike locked for a decade and outlive any plausible employment horizon.
 
-AED 150,000/yr is the *budget ceiling*, not the rent to charge. On Hydra Village stock at AED 750,000–900,000, charging AED 150,000/yr would be a 16.7% gross yield — not a rent, a fantasy, and one the occupier can disprove with a single portal search. The rent must be market rent for that community. What changes across the list is not the rent but **how easy the residual is to finance**:
+**Under the all-in AED 150,000 cap — the version actually being asked for — only one cell clears: a 6% hurdle at ten years, by 0.8% of value.** §3.3 closes that one too.
 
-| Community | [ILLUSTRATIVE] asset | [ILLUSTRATIVE] market rent | 5 yrs @ 50% credit + 5% option fee | Residual | Residual as % of value |
-|---|---|---|---|---|---|
-| Hydra Village | 900,000 | 90,000 | 225,000 + 45,000 = 270,000 | 630,000 | 70.0% |
-| Khalifa City | 1,400,000 | 110,000 | 275,000 + 70,000 = 345,000 | 1,055,000 | 75.4% |
-| Al Reef | 1,600,000 | 138,000 | 345,000 + 80,000 = 425,000 | 1,175,000 | 73.4% |
-| Model unit (Bloom-type) | 2,200,000 | 150,000 | 375,000 + 110,000 = 485,000 | 1,715,000 | 78.0% |
+### 3.3 The third gate: accrued credit cannot pay the transfer fees
 
-Rent figures are **[ILLUSTRATIVE]**, positioned inside the research's stated ranges. The pattern is the point: **cheaper stock produces a lower residual LTV, which means a higher probability the occupier can actually complete.** Hydra Village at 70% is the most completable deal in the list. If you want the pilot to produce completions rather than lapses — and §2.5 explains why you should — pilot on the cheapest stock, not the most expensive.
+Both this paper's first issue and the tenant-side term sheet size the credit to hit exactly a 20% deposit. **Both stop one line early.** Accrued equity offsets the *purchase price*. It cannot pay the buyer's transaction costs at exercise, which run roughly **1.5–4% of price = AED 33,000–88,000 in cash** (transfer fee, trustee office fee, mortgage registration, valuation), plus the first year's service charge as an owner. A structure sized to 20.0% exactly leaves the occupier needing a five-figure cash sum on the day of exercise — **the precise problem the product exists to solve.**
 
-### 3.4 What not to pitch
+Sizing must therefore be 20% **plus** transaction costs. At a 2.5% midpoint, the tenant's requirement rises from `c ≥ 2.2/n` to `c ≥ (0.225 × 2,200,000 − 110,000) / (150,000 n)`:
+
+| Term | Tenant needs (20%) | Tenant needs (20% + txn costs) | Developer can afford, 8%, all-in cap | Gap |
+|---|---|---|---|---|
+| 3 yr | 73.3% | **85.6%** | 32.7% | −7.1% |
+| 5 yr | 44.0% | **51.3%** | 28.4% | −5.0% |
+| 7 yr | 31.4% | **36.7%** | 21.0% | −4.0% |
+| 10 yr | 22.0% | **25.7%** | 12.2% | −3.7% |
+
+**With the third gate applied, no term from three to ten years clears at any hurdle from 6% to 10% under the all-in cap.** The one surviving cell in §3.2 — 6% hurdle, ten years — fails by about 0.6% of value once transaction costs are counted.
+
+We say this even though it makes our own case worse, because discovering it in year five would be indefensible.
+
+**One honest counter-observation against our own tenant.** A tenant who can produce a AED 110,000 option fee at signing is already a quarter of the way to a AED 440,000 deposit. The premise that the deposit is an insurmountable cash wall is weaker than the tenant-side framing suggests, and a commercial director will notice.
+
+### 3.4 The same finding, restated as a yield condition — the useful form
+
+The residual as a share of value is a pure function of **gross rental yield**, not of price level:
+
+> residual % of value = 1 − (c × n × gross yield) − option fee %
+
+Rearranged, the gross yield required to reach a financeable residual is:
+
+> **required gross yield = (0.20 − fee%) ÷ (c × n)** — or, with transaction costs, **(0.225 − fee%) ÷ (c × n)**
+
+At a 5% option fee, this gives:
+
+| Credit rate × term | Required gross yield (20% deposit) | Required gross yield (20% + txn costs) |
+|---|---|---|
+| c = 50%, n = 5 (tenant-feasible) | 6.0% | 7.0% |
+| c = 38.5%, n = 5 (developer max, 8%, charge on top) | 7.8% | **9.1%** |
+| c = 28.4%, n = 5 (developer max, 8%, all-in cap) | 10.6% | **12.3%** |
+| c = 42.1%, n = 3 (developer max, 8%) | 11.9% | **13.9%** |
+
+The reference point: the research's own Abu Dhabi townhouse figures — average annual rent AED 150,000 against average sale price ≈ AED 2.5M — imply a market gross yield of **6.0%** **[UNVERIFIED — search snippet only]**. Our illustrative unit implies 6.8%.
+
+**So the product closes only on stock yielding roughly 9% gross or better, against a market average of 6%.** That is the whole finding in one line, and it is the form to test against a developer's own portfolio, because it needs no WACC, no void assumption and no discount rate — only the rent and the price of a specific unit. **If you have stock at a 9%+ gross yield that is nonetheless not letting or selling, this structure may work on it. If you do not, it will not.**
+
+### 3.5 What this does and does not kill
+
+It does not kill the idea that a registered tenancy with a purchase option is a better instrument than an SPA instalment plan for reaching a salaried, allowance-funded occupier. It kills **the specific parameterisation** — a AED 150,000 all-in cap on a AED 2.2M asset with a credit rate high enough to deliver a deposit in three to five years.
+
+The levers that could reopen the space, in order of how much they move it:
+
+1. **A higher gross yield** — cheaper stock at the same rent, or the same stock at a higher rent. This is the dominant lever (§3.4) and the only one that does not require someone to accept a worse deal.
+2. **The service charge outside the cap** — worth ~2.3 percentage points of the gap (§3.2).
+3. **A longer term** — helps the tenant faster than it hurts the developer up to about seven years, then reverses.
+4. **A lower hurdle rate** — i.e. a different counterparty: a master-community owner or a stabilised-income holder, not a developer with an active land bank.
+5. **A lower strike set today** rather than a high credit rate against list price. Economically similar, but it prices the concession once, transparently, instead of accruing it.
+6. **A smaller option fee** — counterintuitively, the fee is credited to price, so it substitutes for credit; but it is also the developer's only certain income if the option lapses.
+
+---
+
+## 4. Which inventory this could work on
+
+### 4.1 The arithmetic that sets the ceiling
+
+The research derives a calibration from Aldar's 2019 Ansam / Al Hadeel / Meera scheme — **16% / 19% / 22% of property value accrued at years 1 / 2 / 3** **[UNVERIFIED — search snippet only]** — and glosses it as "roughly 6–7% of property value per rent-year", implying that AED 150,000/yr supports an asset of ≈ AED 2.1–2.5M.
+
+**Be careful how that is quoted. Aldar published 16/19/22%. It did not publish a 6–7% per-year rate** — that gloss is the research author's own derivation, and it does not describe the published ladder, which increments only 3 percentage points per year after year 1. Year 1's 16% looks like it bundles an upfront element. Because the underlying prices were never published, the precedent's effective rate is genuinely unknown, and 6.8% happens to be nothing more than AED 150,000 ÷ AED 2.2M — our own assumed asset price wearing Aldar's name.
+
+The conclusion survives on simpler ground that needs no scheme data at all: **AED 150,000/yr is a market rent, and market rent divided by market gross yield gives asset value.** At the ~6% gross yields implied by the research's own Abu Dhabi townhouse figures, AED 150,000/yr buys occupancy of an asset worth AED 2.1–2.5M. Nothing more. Anyone stretching the band to AED 1.8M is not using this calibration.
+
+### 4.2 The target list
+
+**New column, and it is the largest omission from the first issue.** The entire structure exists to deliver title to the occupier at exercise, and nothing in this analysis established whether an expatriate occupier can take freehold title in these communities. If they cannot, the option is not an option to buy the thing the model assumes, and the residual is not mortgageable on the terms modelled. This sits *upstream* of the recharacterisation question — you can win the Tawtheeq argument and still hold a worthless option.
+
+| Community | Product | Price point | Rent benchmark | Implied gross yield | **Expat freehold eligibility** | Fit |
+|---|---|---|---|---|---|---|
+| **Al Reef (Manazel)** | 2–5 BR townhouses & villas, 2,376 units | from AED 1.1M | AED 90k–160k/yr, avg ≈ 138k | ~8.2–8.6% | **"Freehold all nationalities"** per research **[UNVERIFIED — search snippet only]** — the only community in the pack with any statement at all, and it still needs confirming | Best combination of yield and eligibility |
+| **Hydra Village, Rawdat Al Reef** | 2 & 3 BR villas/townhouses, ready since 2012 | AED 750k–900k | AED 45k–100k/yr | 6.0%–11.1% | **Not established** | Highest possible yield in the list — and the widest uncertainty |
+| **Khalifa City** | Townhouses | from AED 1.4M | not obtainable | not calculable | **Not established** | Needs rent data before it can be assessed |
+| **Al Ghadeer** | Villas / townhouses | not obtainable | in-budget per research | not calculable | **Not established** | Needs unit-level data |
+| **Al Shamkha** | Villas / townhouses | not obtainable | AED 85k–240k/yr; low end in budget | not calculable | **Not established** | Only the lower band. Fay Alreeman Ph2 from AED 2.9M is above the ceiling — exclude |
+| **Bloom Living, Zayed City — unsold phases** | Villas, townhouses, apartments; handover Q4 2026 / Q1 2027 / Q3 2027 | **unit prices not obtainable** | no rental history | not calculable | **Not established** | Closest structural analogue to the model unit and the stock most likely to stand empty — but the worst data in the list |
+| **Al Ghadeer Gardens (Aldar)** | Townhouses + 4BR villas, from AED 1.7M | from AED 1.7M | off-plan | not calculable | **Not established** | **Right price, wrong date.** Construction instalments to Aug 2029, handover **Q4 2029** — nothing to lease until then. It cannot be used to justify a lower asset band. |
+
+All price and rent figures **[UNVERIFIED — search snippet only]**. Note that four of seven communities cannot even be assessed on the yield test in §3.4 because no rent or price data was obtainable.
+
+### 4.3 The ceiling is not the rent — and price level is not the driver
+
+**Keep this paragraph; it is the most commercially useful thing here.** AED 150,000/yr is the *budget ceiling*, not the rent to charge. On Hydra Village stock at AED 750,000–900,000, charging AED 150,000/yr would be a 16.7% gross yield — not a rent, a fantasy, and one the occupier can disprove with a single portal search. The rent must be market rent for that community.
+
+**But the first issue drew the wrong conclusion from this and it is withdrawn.** It presented a table showing residual LTVs of 70% at Hydra, 75% at Khalifa City, 73% at Al Reef and 78% at the model unit, and concluded that "cheaper stock is more completable" — then built a pilot recommendation on it. That pattern is an **artifact**. As §3.4 shows, residual % of value is a pure function of gross yield and is **independent of price level**. Hydra scored 70% only because we had assigned it a 10.0% gross yield against 6.8% for the model unit. Assign consistent yields and the price pattern vanishes entirely.
+
+The correct statement is the yield condition: **the product is more completable on high-gross-yield stock, whatever it costs.** Hydra Village *may* qualify — 90k on 900k is 10.0% — but the same research range also supports 45k on 750k, which is 6.0% and does not qualify. We picked the favourable end. That is exactly the kind of selection a commercial director should push back on, so we flag it ourselves.
+
+### 4.4 What not to pitch
 
 **Do not offer this on West Yas, Yas Island, Saadiyat, Al Raha Beach or Al Raha Gardens stock.** The arithmetic does not reach:
 
 - Abu Dhabi villa average asking rent H1 2026 ≈ **AED 333,000/yr** — the AED 150,000 budget is roughly 45% of it **[UNVERIFIED — search snippet only]**.
-- By bedroom count: 3BR villas AED 120k–380k, 4BR AED 160k–750k, 5BR AED 200k–900k. **A 4BR+ villa is out of reach at AED 150,000 before the conversation starts.**
+- By bedroom: 3BR villas AED 120k–380k; 4BR AED 160k–750k; 5BR AED 200k–900k. **A 4BR+ villa is out of reach at AED 150,000 before the conversation starts.**
 - Al Raha Gardens starts at AED 185,000/yr — already 23% over the ceiling.
-- The precedent proves the point: the only villa RTO in Abu Dhabi's history, Aldar's West Yas 4–5BR scheme (488–580 sqm), was priced at **AED 220,000/yr plus AED 15,000/yr management** — 57% above this budget all-in **[UNVERIFIED — search snippet only]**.
+- The precedent proves it: Aldar's West Yas 4–5BR scheme was priced at **AED 220,000/yr plus AED 15,000/yr management** — about 57% above this budget all-in **[UNVERIFIED — search snippet only]**. *(Note: the research states this as 47% over budget on rent alone; 57% is the all-in figure. Both are correct on their own basis and neither is "about 50%".)*
 
-Pitching a AED 150,000/yr RTO on premium stock is the fastest way to lose the room. It signals we have not done the arithmetic, and it invites the correct response that the product is a discount in disguise. **The product is an outer-ring product. Present it as one.**
-
----
-
-## 4. The credit-quality argument
-
-This is the strongest card in the deck, and it is worth more to a treasury function than the yield tables in §2.
-
-### 4.1 The argument
-
-An employer-funded, Tawtheeq-registered annual rent has a payment profile that is unusual in residential real estate and closer to a corporate lease than to a consumer obligation:
-
-| Dimension | Employer-paid annual RTO rent | Ordinary individual tenant | Retail mortgage applicant (the alternative buyer for the same unit) | SPA instalment buyer (your current product) |
-|---|---|---|---|---|
-| Payer | Corporate entity with a payroll, a finance function and a reputational stake | Individual household | Individual household, underwritten by a bank — but the bank, not you, holds the risk and the bank may decline | Individual household |
-| Payment frequency | **Annually, in advance** | Typically 1–4 cheques/yr; monthly increasingly common | Monthly over up to 25 years | Milestone instalments over construction |
-| Exposure at any moment | ≤ 12 months, and zero immediately after each payment | Up to a full quarter or month | 25-year horizon | Full remaining instalment schedule |
-| Failure mode | Payment stops at an annual renewal boundary — visible a year ahead | Cheque bounce mid-term; arrears accumulate silently | Not your problem — but also not your sale, if the bank declines | Purchase default; contested termination and resale |
-| Your remedy | Rental Dispute Committee, on a registered tenancy | Same, if registered | n/a | Contractual termination — slow, and the money already taken is disputed |
-
-The operational consequence is concrete: **on a AED 150,000/yr rent paid annually in advance, you hold the full year's income on day one of each year.** Your average exposure across the year is roughly half a year's rent, and your exposure at each renewal date is zero. Compare that to a monthly-paying individual, where arrears build for weeks before anyone notices and the recovery process starts from a standing start.
-
-There is a second-order benefit that matters to a launch: **the annual-in-advance profile is what makes the AED 150,000 ceiling credible in the first place.** The occupier does not need to save a deposit and does not need to pass a bank's debt-burden test on day one. The addressable buyer is someone whose employer already writes a AED 150,000 housing cheque every year and who cannot convert that flow into ownership because the ~20%+ expat down payment (AED 500,000–580,000 on a AED 2.5–2.9M property, plus 3–4% transaction costs) is a cash wall the allowance cannot climb **[UNVERIFIED — search snippet only]**. Your product's function is to turn a rent flow into a deposit. Nothing else in the Abu Dhabi market currently does that.
-
-### 4.2 The limits of the argument — stated plainly
-
-This card is strong. It is not as strong as a pitch deck would make it, and a treasury team will find each of these in the first meeting, so we raise them first:
-
-1. **The employer is not a guarantor unless it signs as one.** In the normal UAE arrangement the employer pays a housing allowance *on the employee's behalf*, or reimburses the employee. The contractual obligation to pay rent remains the employee's. Unless the employer executes the tenancy as a guarantor or as the named lessee under a corporate lease with the employee as licensed occupier, you have an individual's covenant with a corporate payment habit — not a corporate covenant. **Whether an employer can be named as guarantor or co-signatory on a Tawtheeq-registered residential tenancy is a question for a UAE real-estate lawyer.**
-2. **Employment ends.** Redundancy, resignation, transfer out of the UAE, or a failed probation all terminate the allowance. A five-year term will outlive a meaningful share of five-year employment relationships. Your exposure is capped at the annual boundary, but the *product* — a five-year path to ownership — is not capped, and a mid-term exit is where the accrued-credit forfeiture question (§5.4) becomes real.
-3. **Allowance policy is not contractual permanence.** Employers restructure housing allowances, cap them, roll them into base salary, or move to fixed-sum policies. A five-year fixed rent assumes an allowance line that is set annually.
-4. **We do not know that employers will fund this at all.** This is the biggest hole and it is not a small one. The underlying report reasons — correctly, we think, but *a priori* — that housing allowances are typically paid against a registered tenancy with the employee named as tenant, and that an SPA-based structure would be funding personal capital accumulation, which most employers cannot do from a housing line. **No employer policy was surveyed. No HR department was asked. There is zero primary evidence in this research that any employer will pay against an RTO contract**, even a Tawtheeq-registered one, and there is a live question whether the equity-credit element re-characterises the payment as remuneration with benefit-in-kind and end-of-service-gratuity consequences.
-5. **Therefore the product's demand depends on a fact nobody has established.** Before committing capital, commission a short employer-policy sounding across 8–12 of the large Abu Dhabi employers whose staff you would target — ADNOC, the banks, the education and healthcare groups, the government-related entities — and ask one question: *will your housing allowance fund a Tawtheeq-registered tenancy that carries a purchase option and an equity credit?* If the answer is broadly no, the product has no market and the rest of this paper is moot. That study costs a fraction of one unit's carry and should precede any launch decision.
-6. **The Tawtheeq characterisation is itself unverified.** The research could not establish, for *any* Abu Dhabi RTO scheme past or present, whether a Tawtheeq is issued in the occupier's name or whether the arrangement is documented as a deferred sale. If ADREC treats a lease-plus-equity-ledger as a disguised sale, the tenancy registration — and with it the employer-payability that the entire demand case rests on — may not be available. **This must go to a UAE real-estate lawyer before a single unit is offered.**
+Pitching a AED 150,000/yr RTO on premium stock signals that the arithmetic has not been done.
 
 ---
 
-## 5. Where the balloon sits
+## 5. Credit quality — demoted from "the strongest card"
 
-### 5.1 The number nobody has ever published
+The first issue called this the strongest card in the deck. On review it is not, and the honest version is much smaller.
 
-Aldar's West Yas scheme converted 100% of five years' rent into approximately **AED 1.1M of accrued equity**. Against what purchase price, and what was owed at the end of year 5, was **never disclosed in any accessible source** **[UNVERIFIED — search snippet only]**. The one Abu Dhabi villa RTO precedent that exists gives no guidance whatsoever on the single largest number in the structure. Anyone who tells you the market has solved the residual is telling you something the public record does not support.
+### 5.1 What the argument was, and what is left of it
 
-### 5.2 The residual ladder — the design decision that matters most
+The claim was that an employer-funded, Tawtheeq-registered annual rent is near-zero-default income: paid annually in advance by a corporate entity rather than monthly by an individual. Three things reduce it:
 
-On the illustrative AED 2.2M unit at AED 150,000/yr for five years with a AED 110,000 option fee credited on exercise, and testing against the ~20% expat down-payment requirement reported in the research **[UNVERIFIED — search snippet only]**:
+**Annual-in-advance may not be incremental at all.** The tenant-side term sheet describes annual-in-advance as *the market-standard Abu Dhabi pattern*, and that is the more plausible claim — the first issue's own table describing ordinary tenants as paying "1–4 cheques/yr, monthly increasingly common" is unsourced and probably understates the norm. **If annual-in-advance is standard, the payment profile is what you already get from every other tenant in the community, and it is not a benefit of this structure.**
 
-| Rent credited to equity | Annual credit | Equity at yr 5 (incl. option fee) | Equity as % of price | Residual to fund | Implied LTV | Clears an 80% LTV test? |
+**The employer is not the payer.** In the normal UAE arrangement the employer pays a housing allowance *on the employee's behalf*, or reimburses them. The contractual obligation remains the employee's. Unless the employer executes the tenancy as guarantor or as named lessee, you have an individual's covenant with a corporate payment habit — **which is an ordinary tenant.** Do not let anyone leave a meeting believing there is a corporate guarantee; that would be a misrepresentation. Whether an employer *can* be named as guarantor on a Tawtheeq-registered residential tenancy is a lawyer's question.
+
+**The exposure profile is worse than a plain tenancy, not better.** The first issue claimed "zero exposure at each renewal". That is false under this structure. Under a plain tenancy prepaid rent extinguishes as it is consumed. Here a growing share becomes an **accrued equity ledger the developer owes back** — by year three, a AED 400,000–500,000 obligation whose forfeiture enforceability is unresolved (§6.4). You are not reducing your exposure; you are converting rental income into an unsecured contingent liability on your own book.
+
+### 5.2 The one true version
+
+What remains is a statement about the tenant's constraint, not a benefit to you:
+
+> A housing allowance is why this occupier can pay AED 150,000/yr indefinitely and cannot pay a AED 440,000 deposit plus AED 33,000–88,000 of transaction costs. The allowance funds flow, not stock. Nothing else in the Abu Dhabi market converts that flow into a deposit.
+
+That is a real market observation and it is the reason to look at the structure at all. It is not a credit-quality argument, and it should not be sold as one.
+
+### 5.3 And it rests on a fact nobody has established
+
+**No employer policy was surveyed. No HR department was asked. There is zero primary evidence that any employer will pay a housing allowance against a Tawtheeq-registered tenancy carrying a purchase option and an equity credit.** The reasoning that they might — allowances are typically paid against registered tenancies, and an SPA would be funding personal capital accumulation — is *a priori*, ours, and unsourced. There is also a live question whether the equity-credit element re-characterises the payment as remuneration, with benefit-in-kind and end-of-service consequences.
+
+**If the answer is no, there is no product**, regardless of everything else in this paper. The tenant side can obtain that answer from their own HR department, for free, by email. Until that letter exists, the correct description of the counterparty is *a tenant with a housing allowance who is checking whether it can fund this structure* — not a tenant with confirmed employer funding.
+
+---
+
+## 6. Where the residual sits
+
+### 6.1 The number nobody has ever published
+
+Aldar's West Yas scheme converted five years' rent into approximately AED 1.1M of accrued equity. **Against what purchase price, and what was owed at year 5, was never disclosed in any accessible source** **[UNVERIFIED — search snippet only]**. The one Abu Dhabi villa RTO precedent gives no guidance on the single largest number in the structure.
+
+### 6.2 The residual ladder
+
+On the illustrative AED 2.2M unit at AED 150,000/yr for five years with a AED 110,000 option fee credited on exercise, against the ~20% deposit requirement (input 15 — a soft floor, stated in the research only as "20%+"):
+
+| Rent credited | Equity at yr 5 incl. fee | % of price | Residual | Implied LTV | Deposit gate | **Cash still needed at exercise (txn costs)** |
 |---|---|---|---|---|---|---|
-| 0% (pure lease + option) | 0 | 110,000 | 5.0% | 2,090,000 | 95.0% | **No** |
-| 25% | 37,500 | 297,500 | 13.5% | 1,902,500 | 86.5% | **No** |
-| 40% | 60,000 | 410,000 | 18.6% | 1,790,000 | 81.4% | **Marginal — no** |
-| **50%** | **75,000** | **485,000** | **22.0%** | **1,715,000** | **78.0%** | **Yes** |
-| 100% (West Yas shape) | 150,000 | 860,000 | 39.1% | 1,340,000 | 60.9% | Yes, comfortably |
+| 0% | 110,000 | 5.0% | 2,090,000 | 95.0% | fails | 33,000–88,000 |
+| 25% | 297,500 | 13.5% | 1,902,500 | 86.5% | fails | 33,000–88,000 |
+| 40% | 410,000 | 18.6% | 1,790,000 | 81.4% | fails | 33,000–88,000 |
+| 44% | 440,000 | 20.0% | 1,760,000 | 80.0% | **minimum pass** | 33,000–88,000 |
+| 50% | 485,000 | 22.0% | 1,715,000 | 78.0% | passes | 33,000–88,000 |
+| 100% | 860,000 | 39.1% | 1,340,000 | 60.9% | passes | 33,000–88,000 |
 
-**This is the central design finding of this paper. At AED 150,000/yr over five years, a credit rate below roughly 50% does not get an expatriate occupier to a bankable deposit, and the option will lapse.** You can write a 40%-credit deal and it will be worth AED 51,044 more in NPV (§2.3) — but it will produce a customer who cannot complete, which is a product that fails publicly at the end of year 5 with the occupier's five years of "equity" in dispute.
+**Note the last column. No credit rate removes it.** The transaction costs are cash, and accrued credit cannot pay them (§3.3).
 
-The 50% credit rate costs AED 58,731 of PV against plain letting — **2.7% of asset value**. That is the price of the product. Compare it to what a 10% clearing discount costs (AED 220,000 of headline value, and AED 19,029 of PV against letting), or to what five years of an empty unit costs (AED 582,138 of PV). On stock that is not moving, 2.7% is cheap.
+Reading the ladder against §3.2: the tenant needs at least 44%; the developer can afford 28.4% under the all-in cap at an 8% hurdle. **The rows that work for the tenant are below the developer's hurdle, and the rows that clear the developer's hurdle strand the tenant.** That is the finding in §3, seen from the residual side.
 
-### 5.3 Who funds the residual — four routes, ranked
+### 6.3 Who funds the residual
 
-1. **Occupier takes a mortgage or Ijara at year 5, with accrued equity as the deposit.** This is the intended route and the arithmetic works: the research indicates ADIB indicative profit rates from ~3.75% p.a. (2026) and that AED 12,500/month services a facility of roughly AED 2.0–2.3M over 25 years **[UNVERIFIED — search snippet only]**. A AED 1,715,000 residual sits comfortably inside that, at approximately the *same* AED 150,000/yr the employer was already paying. That symmetry is the product's most attractive feature and it should be the headline of any customer-facing material.
-   **But the critical unknown is this: will a UAE bank accept accrued rent credit as the borrower's equity contribution?** A bank underwriting a AED 2.2M purchase with AED 485,000 of "deposit" that never left the developer's balance sheet and arrived as five years of rent may treat it as vendor finance and require a fresh cash deposit on top. **We have no evidence either way, and no lender was contactable in this research.** Get a written indicative position from two lenders — one conventional, one Islamic — *before* launching. If the answer is no, the product does not work in its intended form and you need to know that in month one, not in year five.
-2. **You vendor-finance the residual.** Solves the bank problem, creates a bigger one: you become a five-to-fifteen-year consumer lender. **Whether that requires a finance-company licence from the UAE Central Bank is a question for a UAE lawyer.** It also converts a real-estate balance sheet into a credit book with the associated capital, provisioning and collections apparatus. For most developers this is a hard no; for a developer with a bank in the group it may be the whole reason to do the deal.
-3. **Roll the term.** Extend the tenancy for a further period at a re-struck strike, continuing to accrue. Cheap to administer, keeps the occupier, defers the problem. It also silently lengthens your capital lock-up, and it needs an explicit contractual cap on the number of rolls.
-4. **Option lapses, unit reverts.** You keep the rent as rent, keep the option fee, re-let or sell. Financially this is your *best* branch under a fixed strike (§2.5, D4). Commercially it is the branch that generates the complaint, the social-media post and the regulator's attention. Do not design a product whose best financial outcome is the customer's worst.
+1. **Occupier takes a mortgage or Ijara at exercise, with accrued credit as deposit.** The intended route, and the running arithmetic works: research indicates ADIB indicative profit rates from ~3.75% p.a. (2026) and that AED 12,500/month services a facility of roughly AED 2.0–2.3M over 25 years **[UNVERIFIED — search snippet only]** — so a AED 1,715,000 residual sits inside that, at approximately the same AED 150,000/yr the allowance was already paying. **But the critical unknown is whether a UAE bank will accept vendor-accrued rent credit as the borrower's equity contribution.** A lender may treat it as vendor finance and require fresh cash on top. No evidence either way; no lender was contactable. **Get a written indicative position from two lenders — one conventional, one Islamic — before anything else commercial happens.** If the answer is no, every occupier lapses at exercise regardless of credit rate, and the product fails publicly in year five.
+2. **Developer vendor-finances the residual.** Solves the bank problem; creates a larger one. **Whether that requires a finance-company licence from the UAE Central Bank is a lawyer's question.** For most developers, a hard no; for one with a bank in the group, possibly the whole reason to do the deal.
+3. **Roll the term.** Cheap to administer, defers the problem, silently lengthens capital lock-up. Needs an explicit contractual cap on rolls.
+4. **Option lapses, unit reverts.** Financially your best branch under a fixed strike (§2.5). Commercially the branch that generates the complaint. Do not design a product whose best financial outcome is the customer's worst.
 
-### 5.4 If the occupier cannot complete
+### 6.4 If the occupier cannot complete
 
-The contract must answer four questions explicitly, and the answers determine whether this product is defensible:
+Four questions the contract must answer explicitly:
 
-- **What happens to accrued credit on non-exercise?** If it is forfeited, say so in the largest type in the document. **Whether forfeiture of a substantial accrued credit is enforceable in Abu Dhabi, or whether it would be struck down or reduced as a penalty, is a question for a UAE real-estate lawyer.** Do not launch without that opinion. A partial-refund or credit-transfer mechanism (credit portable to another unit in the same community) is the commercially safer design and costs little.
-- **What happens on mid-term employment loss?** A defined cure window, an assignment right (the occupier can transfer the contract and accrued credit to another qualifying occupier, subject to your approval), and a defined wind-down. Assignment rights are cheap to grant and turn the worst customer story into a manageable one.
-- **Is the rent, legally, rent?** This is what determines whether you keep the money on a failed deal. If a court or the Rental Dispute Committee re-characterises five years of payments as purchase instalments, forfeiture becomes restitution. Lawyer question, and the most expensive one to get wrong.
-- **Who bears a valuation shortfall at year 5?** If the market has fallen below the strike, a rational occupier will not exercise and you hold a unit worth less than you modelled. Under a fixed strike you are short a call and long the downside — the worst of both. An indexed or market-referenced strike with a collar shares that risk instead of concentrating it.
+- **What happens to accrued credit on non-exercise?** **Whether forfeiture of a substantial accrued credit is enforceable in Abu Dhabi, or would be reduced as a penalty, is a lawyer's question.** Do not launch without that opinion. A partial-refund or credit-transfer mechanism is the commercially safer design and costs little. Note also that any contractual statement that the credits are "consideration for continuing, not a debt of the developer" is a **legal characterisation, not a commercial term** — and it pre-answers the developer-insolvency question, so it should be negotiated on its merits rather than assumed by either side.
+- **What happens on mid-term employment loss?** A defined cure window, an assignment right, and a defined wind-down. Assignment rights are cheap to grant and turn the worst customer story into a manageable one. Death, incapacity and occupier insolvency need the same treatment.
+- **Is the rent, legally, rent?** This determines whether you keep the money on a failed deal. **If a court or the Rental Dispute Committee re-characterises the payments as purchase instalments, forfeiture becomes restitution.** The most expensive question in the structure to get wrong.
+- **Which forum hears a dispute about the credit?** If the option and the equity ledger sit outside the registered tenancy, then rent disputes go to the rental-dispute route and disputes about the six-figure accrued credit go somewhere unspecified. The tenancy protection would then cover the part of the deal that was never the risk.
 
 ---
 
-## 6. What you give up
-
-An even-handed list. If any of these is a blocker for your board, better to find out now.
+## 7. What you give up
 
 | Cost | Magnitude on the model unit | Notes |
 |---|---|---|
-| **Capital tied up** | AED 2,200,000 for 5 years | The real cost, and it is not in the NPV tables as a separate line — it *is* the discount rate. If your land-bank pipeline earns above your WACC, every unit in this programme is a unit not funding the next launch. This is the single strongest internal objection and it is a good one. |
-| **Price appreciation forgone** | AED 340,403 at 3%/yr over 5 years on a fixed strike | Under a fixed strike you hand the occupier every dirham of appreciation above AED 2.2M while retaining every dirham of depreciation below it. Indexing the strike removes most of this (§2.5). |
-| **The written call, unpriced** | ≈ AED 234,120 of PV in D2 | The AED 110,000 option fee is not a market price for a five-year at-the-money call on AED 2.2M of real estate. You are selling the option cheap because the rent stream is the real consideration — but book it as an option sold, not as a fee earned. |
-| **Reduced portfolio liquidity** | n/a | Units under a five-year RTO cannot be included in a bulk sale, a REIT seed portfolio or a JV contribution without novating the tenancy and the option. Cap programme size as a % of the community so this stays a rounding error rather than an encumbrance on the asset. |
-| **Administration** | Recurring, per unit | A per-unit equity ledger that must reconcile and be reportable to the occupier annually; annual Tawtheeq renewal; option-exercise notice management; five years of a customer relationship with someone who believes they are an owner and will behave like one on maintenance requests. The Tawtheeq fees are trivial — AED 900 one-off property registration (landlord) plus AED 50 per contract **[UNVERIFIED — search snippet only]** — but the process discipline is not. |
-| **Regulatory obligations** | Ongoing | All residential leases in Abu Dhabi must be registered via Tawtheeq (ADREC, through TAMM) to be legally valid; an unregistered tenancy cannot be enforced through the Rental Dispute Committee **[UNVERIFIED — search snippet only]**. The RTO tenancy must be registered like any other, and the equity-credit side agreement must not compromise that registration. Confirm with ADREC and with counsel. |
-| **Accounting treatment — get your auditor in the room early** | Potentially material | Several open questions we are **not** qualified to answer and will not guess at: does a five-year lease with a purchase option and an accruing credit transfer control such that it must be recognised as a sale at inception rather than as rental income? How is accrued equity presented — contract liability, deferred revenue, or a reduction of receivable? Does the unit sit as investment property or as inventory, and does moving it between those classifications trigger a remeasurement? **These are questions for your auditors and tax advisers, not for us, and the answers can change the reported P&L shape of the whole programme even where the cash flows are identical.** Ask before you launch, not after. |
-| **Tax** | Unknown | UAE corporate tax treatment of rental income versus a disposal gain, and the timing of recognition under an RTO structure, is a question for a UAE tax adviser. We make no assertion. |
-| **Reputational exposure** | Asymmetric | A programme in which most occupiers fail to complete at year 5 and lose accrued credit is a bad story with a five-year fuse. Design for completion (§5.2) or do not run it. |
+| **Capital tied up** | AED 2,200,000 for 5 years | The real cost, and it is not a line in the model — it *is* the discount rate. If your pipeline earns above your WACC, every unit here is a unit not funding the next launch. The strongest internal objection, and a good one. |
+| **Price appreciation forgone** | **AED 350,403** at 3%/yr over 5 years on a fixed strike | *(Corrected from AED 340,403 — §2.7.)* Under a fixed strike you hand the occupier every dirham above AED 2.2M while keeping every dirham of downside. A collar shares it (§2.5). |
+| **The written call** | ≈ AED 230,000 of PV in D₄₀ | The AED 110,000 option fee is not a market price for a five-year at-the-money call on AED 2.2M of real estate. Book it as an option sold, not a fee earned. |
+| **An accrued liability on your own book** | 400,000–500,000 by year 3 | Rental income converted into an unsecured contingent obligation of uncertain enforceability (§5.1). |
+| **Reduced portfolio liquidity** | — | Units under a multi-year RTO cannot join a bulk sale, a REIT seed portfolio or a JV contribution without novating both tenancy and option. Cap programme size as a % of the community. |
+| **Administration** | Recurring, per unit | A per-unit equity ledger that must reconcile and be reported annually; annual tenancy renewal; option-exercise notice management; a multi-year relationship with an occupier who believes they are an owner. The registration fees are trivial — and mentioning that they are trivial is not an argument, because nobody ever declined a deal over AED 950. |
+| **Regulatory obligations** | Ongoing | Residential leases in Abu Dhabi must be registered via Tawtheeq to be legally valid **[UNVERIFIED — search snippet only]**; the equity-credit side agreement must not compromise that registration. Add a change-event for registration being refused or the regulatory position changing mid-term — on this pack's own evidence (a reported rent freeze ten weeks before the date of writing) that is the highest-probability adverse event in the structure. |
+| **Renewal mechanics cut both ways** | — | If the term is delivered as consecutive one-year registered tenancies, the developer holds an annual right not to renew that becomes more valuable to exercise as the occupier's stake grows. A counterparty will want that closed; you should expect to close it. |
+| **Accounting treatment — get your auditor in early** | Potentially material | Does a lease with a purchase option and an accruing credit transfer control such that it must be recognised as a sale at inception? How is accrued equity presented — contract liability, deferred revenue, or reduction of receivable? Investment property or inventory, and does reclassification trigger remeasurement? **Questions for your auditors, not for us.** They can change the reported P&L shape of the programme even where cash flows are identical. |
+| **Tax** | Unknown | UAE corporate tax treatment of rental income versus disposal gain, and timing of recognition, is a question for a tax adviser. We make no assertion. |
+| **Reputational exposure** | Asymmetric | A programme in which most occupiers fail to complete and lose accrued credit is a bad story with a five-year fuse. |
 
 ---
 
-## 7. The counter-case: why you might rationally say no
+## 8. The counter-case: why you might rationally say no
 
-We would rather you rejected this for a good reason than accepted it for a bad one. Here is the strongest case against, made properly.
+We would rather you rejected this for a good reason than accepted it for a bad one.
 
-**1. Your cost of capital may kill it outright.** At a 10% hurdle rate a 10% clearing discount today (AED 1,920,600) beats every fixed-strike RTO variant (§2.4). Developers with active land banks routinely apply hurdle rates well above 10%. If yours is one, take the discount, recycle the capital, and stop reading. This is not a rhetorical concession; it is the correct answer under those inputs.
+**8.1 The arithmetic does not close.** §3. This is now our own finding, not an objection to be answered. On the register at §2.1 there is no credit rate, term or strike combination that clears a developer's hurdle and reaches a financeable residual. **That is a sufficient reason to say no, and it is the first thing on this list because it is the strongest.**
 
-**2. There may be no problem to solve.** We have **no absorption data, no void statistics, no enquiry volumes and no demand research of any kind.** The only market-wide figures available are that 1,029 villas and 320 townhouses are listed for rent in Abu Dhabi **[UNVERIFIED — search snippet only]** — a stock count that tells us nothing about how fast they move. If your outer-ring stock is letting on first viewing and selling at list, this product solves a problem you do not have and costs you 2.7% of asset value to solve it.
+**8.2 Your cost of capital may kill it independently.** At a 10% hurdle a 10% clearing sale beats every credit-bearing variant (§2.4). Developers with active land banks routinely apply hurdles well above 10%. If yours is one, take the discount, recycle the capital, and stop reading. This is not a rhetorical concession; under those inputs it is the correct answer.
 
-**3. The only developer that ever tried it appears not to have scaled it.** Aldar launched two RTO schemes in 2019 — West Yas (villas) and Ansam / Al Hadeel / Meera (apartments) — and the research found **no evidence that either is open in 2026**, alongside multiple 2026 sources describing RTO as "extremely rare in practice, with few developers or financial institutions currently offering this structure" in the UAE **[UNVERIFIED — search snippet only]**. Absence of evidence is weak evidence here, because no developer page could be opened and the schemes may simply have sold out quietly. But a large, sophisticated listed developer piloting a structure twice and not visibly scaling it is a data point that deserves a straight answer before you commit. **The single highest-value piece of diligence available is a conversation with someone who ran the West Yas programme.**
+**8.3 The equity credit is a bigger discount than the clearing discount, delivered later.** A 20% credit against a fixed strike **is** a 20% discount. Arguing that the retained 80% proves otherwise is like arguing a 20%-off sale is not a discount because you still collect 80% of list.
 
-**4. The reported rent freeze cuts both ways.** §2.6 argues the freeze makes a flat five-year rent costless to concede. The counter is equally valid: a freeze makes *renting* cheaper and stickier, weakens the tenant's urgency to convert to ownership, and reduces demand for exactly this product. And the freeze is temporary, single-sourced from a brokerage blog, and unconfirmed on the regulator's own site. Building a five-year product on it would be building on sand.
+| Structure | Nominal give-up | % of value | PV @ 8% | PV as % of value |
+|---|---|---|---|---|
+| 10% clearing discount today | 220,000 | 10.0% | 220,000 | **10.0%** |
+| 5 yr @ 44% credit + fee (minimum feasible) | 440,000 | 20.0% | 300,000 | **13.6%** |
+| 5 yr @ 50% credit + fee | 485,000 | 22.0% | 330,000 | **15.0%** |
+| 3 yr @ 100% credit | 450,000 | 22.5% | 360,000 | **17.9%** |
 
-**5. Legal characterisation is unresolved and it is foundational, not peripheral.** Nobody in this research could establish whether a lease-plus-option-plus-equity-ledger can be Tawtheeq-registered as a residential tenancy in Abu Dhabi. If ADREC or a court treats it as a disguised sale, then it is an SPA — at which point there is no tenancy, no Rental Dispute Committee protection, no employer-payable rent, and the entire demand thesis in §4 collapses. This is a binary risk sitting under the whole structure and it costs one legal opinion to resolve. **Get that opinion before anything else in this paper.**
+**8.4 There may be no problem to solve.** We have **no absorption data, no void statistics, no enquiry volumes and no demand research of any kind.** The only market-wide figures available are stock counts — 1,029 villas and 320 townhouses listed for rent **[UNVERIFIED — search snippet only]** — which say nothing about how fast they move. If your outer-ring stock is letting on first viewing and selling at list, this solves a problem you do not have.
 
-**6. The financing chain has an untested link.** If no lender will treat accrued rent credit as the borrower's equity contribution (§5.3), then five years of the programme end in mass non-exercise. You keep the rent and the units — financially survivable, per D4 — but the product has publicly failed and you have a cohort of aggrieved occupiers who were told they were building equity. Two lender letters resolve this. Get them first.
+**8.5 The only developer that ever tried it appears not to have scaled it.** Aldar launched two RTO schemes in 2019 and the research found no evidence either is open in 2026, alongside multiple 2026 sources describing rent-to-own as "extremely rare in practice, with few developers or financial institutions currently offering this structure" **[UNVERIFIED — search snippet only]**. Absence of evidence is weak here — no developer page could be opened — but a sophisticated listed developer piloting twice and not visibly scaling deserves a straight answer. **A conversation with someone who ran the West Yas programme is the highest-value diligence available anywhere in this file.**
 
-**7. Employer payability is asserted, not evidenced.** §4.2, point 4. The entire distinctive advantage of this product over an ordinary payment plan is that a corporate housing allowance can fund it. Nobody has asked a single employer whether that is true.
+**8.6 Legal characterisation is unresolved and foundational.** Nobody established whether a lease-plus-option-plus-equity-ledger can be Tawtheeq-registered as a residential tenancy. If it is treated as a disguised sale, then it is an SPA — no tenancy, no dispute route, **no rent for an employer to pay** — and the demand thesis collapses entirely. Note the trap: every term that makes the product commercially attractive to the occupier (100% credit, a strike fixed at signing, a fixed term, a running equity statement) is a term that increases recharacterisation risk. **The commercially best version may be the legally most fragile one.** And upstream of all of it sits the eligibility question in §4.2 — you can win the Tawtheeq argument and still hold an option to buy something the occupier cannot own.
 
-**8. Adverse selection is real, if partly offset.** The occupiers who choose a five-year path to a deposit are, definitionally, those who cannot raise a deposit today. The employer-payment mechanism substantially offsets this — the payer is a corporate, and the annual-in-advance profile caps exposure — but it does not eliminate it. Underwrite the employer, not just the employee.
+**8.7 The two numbers that decide the answer are the two we invented.** The void allowance (input 8) and the list-to-transacted spread (input 11) are both **[ASSUMPTION]**, and between them they determine whether plain letting or a clearing sale is the binding alternative. Honest labelling on load-bearing guesses does not stop them being load-bearing. Remove the void allowance entirely and the five-year gap roughly doubles.
 
-**9. A simpler tool may already do the job.** Aldar's 2019 post-handover payment plans put up to 60% of value on a 4–5 year tail after handover **[UNVERIFIED — search snippet only]**. That achieves much of the same affordability with none of the tenancy, option, equity-ledger, Tawtheeq or accounting complexity. The catch — and it is the whole reason this paper exists — is that a post-handover plan is an SPA, so it is **not** employer-allowance-payable, and it does not reach the buyer who cannot clear the deposit wall. If you disagree with that constraint, the simpler tool wins and you should extend your payment plans instead.
+**8.8 The financing chain has an untested link.** If no lender treats accrued rent credit as the borrower's equity (§6.3), every occupier lapses at exercise. Two lender letters resolve it, and they cost nothing to request.
+
+**8.9 Employer payability is asserted, not evidenced.** §5.3. The entire distinctive advantage over an ordinary payment plan is that a housing allowance can fund it, and nobody has asked a single employer whether that is true.
+
+**8.10 The scale is wrong for the overhead.** Legal, treasury and audit sign-off on a novel structure is a fixed cost. Spread across one unit or a handful, it exceeds the margin. **This is probably the single strongest practical objection, and a developer raising it is reasoning correctly.** A pilot of one is a bespoke deal with no learning curve to amortise, and the friction is internal approval time, not a cost line an option fee recovers. The honest response is not a counter-argument; it is a question — *what tranche size would make this worth building?*
+
+**8.11 A simpler tool may already do the job.** Aldar's 2019 post-handover payment plans put up to 60% of value on a 4–5 year tail after handover **[UNVERIFIED — search snippet only]** — much of the same affordability with none of the tenancy, option, ledger or accounting complexity. The catch is that a post-handover plan is an SPA, so it is not allowance-payable and does not reach the occupier who cannot clear the deposit. If you do not accept that constraint, the simpler tool wins and you should extend your payment plans instead.
 
 ---
 
-## 8. What we are actually asking for at this stage
+## 9. What should happen next
 
-Not a programme. A decision to spend a small amount of diligence money in a specific order, because four of these can kill the idea for a fraction of one unit's annual carry:
+The first issue of this paper proposed a diligence sequence and then attached the wrong owner to most of it. **The sequence was right and is unchanged. The ownership was wrong and is corrected.** It asked a developer to commission an employer-policy sounding across 8–12 large Abu Dhabi employers — a question the tenant side can answer about their own employer, for free, by email, and had not — and to hand over their confidential WACC, void rate and list-to-transacted spread so a prospective counterparty could price a deal against them. A commercial director reads that as being asked to fund someone else's feasibility study, and they are reading it correctly.
 
-1. **Legal opinion** — can a lease-plus-purchase-option with an accruing equity credit be Tawtheeq-registered as a residential tenancy in Abu Dhabi, and is forfeiture of accrued credit enforceable? *(Kills or clears the whole structure. Do this first.)*
-2. **Two lender indications** — one conventional, one Islamic: will accrued rent credit count as the borrower's equity contribution at year 5? *(Determines whether §5.3 route 1 exists.)*
-3. **Employer-policy sounding, 8–12 large Abu Dhabi employers** — will a housing allowance fund a Tawtheeq tenancy carrying a purchase option? *(Determines whether there is any demand at all.)*
-4. **Your own inputs into §2** — real WACC, real list-to-transacted spread, real void rate, real service charge, real achievable rent on the specific community. *(Determines whether the answer is yes or no.)*
-5. **Then, and only then: a 20–40 unit pilot on ready outer-ring stock** — Hydra Village or Al Reef by preference, per §3.3, because those produce the lowest residual LTVs and therefore the highest completion rates. Rent set to market for the community, not to the AED 150,000 ceiling. 50% credit rate. Strike indexed. Option fee non-refundable but credited on exercise. Assignment right granted. Cap the programme at a small share of the community so it never encumbers a bulk sale.
+**Gates 1–3 belong to us and cost a developer nothing. None of them requires a developer in the room. Until all three are answered, there is nothing to pitch.**
 
-The pilot is the only way to generate the demand data that this entire analysis lacks, and 20–40 units is a small enough number that being wrong is cheap.
+| # | Gate | Owner | Why it is first |
+|---|---|---|---|
+| **1** | **Legal opinion.** Can an expatriate occupier take freehold title in the target community? Can a lease-plus-purchase-option with an accruing equity credit be registered as a residential tenancy? Is forfeiture of accrued credit enforceable? | **Us** | Kills or clears the whole structure, cheaply. Eligibility comes before recharacterisation. |
+| **2** | **Two lender indications**, one conventional and one Islamic: will accrued rent credit count as the borrower's equity contribution at exercise? | **Us** | Free to ask. Determines whether §6.3 route 1 exists at all — and it uniquely de-risks a developer at zero cost to them, which makes it the single most useful thing to arrive with. |
+| **3** | **One employer letter** — the tenant side's own HR, in writing: will a housing allowance fund a Tawtheeq-registered tenancy carrying a purchase option and equity credit? | **Us** | If no, there is no product (§5.3). One email. |
+| **4** | **The yield test** (§3.4) applied to specific units | **Shared, and it is one question** | Not "send us your WACC and void rate". The single question is: *do you hold stock at a 9%-plus gross rental yield that is nonetheless not letting or selling?* It needs no confidential data — only the rent and the price of a specific unit — and it is answerable in a sentence. |
+| **5** | **Then, and only then, the commercial conversation** | Developer | See below |
+
+**And when that conversation happens, the ask should be a question, not a proposal.** On the evidence in this paper the honest opening is: *the arithmetic as we have it does not close, here is exactly where it fails, and the two levers that would move it are a higher-yield unit and the service charge sitting outside the cap — what tranche size and credit rate would make this worth building, and would you tell us if we came back with it?* Taking that number as information is worth more than a term sheet a developer cannot price.
+
+**Structural notes for that conversation, if it happens:**
+
+- Target a developer or master-community owner whose hurdle is nearer 6% than 10% (§8.2).
+- Target stock with a gross yield around 9% or better (§3.4) that is genuinely stalled.
+- Rent set to market for that community, never to the AED 150,000 ceiling (§4.3).
+- Service charge outside the cap if at all possible — worth ~2.3 points of the feasibility gap (§3.2).
+- **Collar** the strike; do not index it upward (§2.5).
+- Credit rate the developer sets, sized to 20% **plus** transaction costs, not to 20% (§3.3).
+- Assignment right granted; death, incapacity and insolvency addressed (§6.4).
+- Cap programme size as a share of the community so it never encumbers a bulk sale.
+- Ship one product. Any accompanying term sheet must carry the same term, credit rate, strike mechanism and service-charge treatment as this paper, or a developer receives a proposer asking for terms their own analysis says destroy value.
